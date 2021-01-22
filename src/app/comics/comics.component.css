@@ -1,0 +1,14 @@
+.imagen{
+  display: flex;
+  align-items: center;
+  height: 455px;
+}
+
+.card-subtitle{
+  font-style: italic;
+}
+
+
+.vermas{
+  background-color: #62C698;
+}

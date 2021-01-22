@@ -1,0 +1,26 @@
+.search{
+  color: #62C698;
+  border: #62C698 solid 1px;
+
+}
+
+.search:hover{
+  background-color:#62C698;
+  color: white;
+}
+
+.resultado{
+  position: absolute;
+  display: block;
+  top: 100%;
+  list-style: none;
+  z-index: 1;
+  right: 60px;
+}
+
+.resultado li{
+  position: relative;
+  padding: 5px;
+  margin: 0px;
+
+}
