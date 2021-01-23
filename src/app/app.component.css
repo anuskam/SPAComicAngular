@@ -19,8 +19,12 @@
 }
 
 .resultado li{
-  position: relative;
+  /* position: absolute; */
   padding: 5px;
   margin: 0px;
 
+}
+
+.resultado li:hover{
+  background-color:#62C698;
 }
