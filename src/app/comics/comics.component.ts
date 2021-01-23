@@ -14,7 +14,7 @@ export class ComicsComponent implements OnInit {
   constructor(private _servicio:ComicsService) {
     //función que retorna todo lo que tenemos en comics.service.ts
     this.comics = _servicio.getComics();
-   }
+  }
 
   ngOnInit(): void {
   }
