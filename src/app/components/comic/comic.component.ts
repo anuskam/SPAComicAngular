@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ComicsService } from '../servicios/comics.service';
-import { Comic } from '../servicios/comics.service';
+import { ComicsService } from '../../servicios/comics.service';
+import { Comic } from '../../servicios/comics.service';
 
 
 @Component({
