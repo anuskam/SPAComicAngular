@@ -2,7 +2,7 @@
   <body>
     <div class="container-fluid mb-4">
       <div class="row d-flex align-items-stretch">
-        <div class="col mb-4" *ngFor="let item of comics">
+        <div class="col mb-4" *ngFor="let item of comics, index as i">
           <div class="card h-100 mt-4 ml-2 mr-2" style="width: 20rem;">
             <div class="imagen">
               <img [src]="item.img" class="card-img-top" alt="imagen">
@@ -17,7 +17,7 @@
             </div>
             <div class="card-footer">
               <!-- Sirve para que nos lleve a cada comic en concreto y ver más información.  -->
-              <a class="btn btn-block vermas">Ver más</a>
+              <a [routerLink]="['/comic', i]" class="btn btn-block vermas">Ver más</a>
               <!-- <small class="text-muted">{{comic.editorial}}</small> -->
             </div>
           </div>

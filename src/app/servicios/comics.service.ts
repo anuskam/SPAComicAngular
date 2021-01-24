@@ -122,9 +122,9 @@ export class ComicsService {
   }
 
 
-  // getComic( idx: string){
-  //   return this.comics[idx];
-  // }
+  getComic( idx: string){
+    return this.comics[idx];
+  }
 }
 
 //Creo una interface para poder usar Arrays de Comics y no tipo Any
