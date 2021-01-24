@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ComicsService } from '../servicios/comics.service';
-import { Comic } from '../servicios/comics.service';
+//import { Comic } from '../servicios/comics.service';
 
 @Component({
   selector: 'app-comics',
@@ -9,7 +9,7 @@ import { Comic } from '../servicios/comics.service';
 })
 export class ComicsComponent implements OnInit {
 
-  comics:Comic[] = [];
+  comics:any[] = [];
 
   constructor(private _servicio:ComicsService) {
     //función que retorna todo lo que tenemos en comics.service.ts

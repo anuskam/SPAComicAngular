@@ -8,6 +8,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComicsComponent } from './comics/comics.component';
 import { HomeComponent } from './home/home.component';
+import { ComicComponent } from './comic/comic.component';
+
+//pipe
 import { FilterPipe } from './filter.pipe';
 
 //Para utilizar el ngFor de search
@@ -18,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     ComicsComponent,
     HomeComponent,
+    ComicComponent,
     FilterPipe,
   ],
   imports: [
