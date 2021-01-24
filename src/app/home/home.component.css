@@ -1,11 +1,3 @@
-/* .principal{
-  background-image: url(../../assets/img/reading_in_window.jpg);
-  background-size: cover;
-  background-position: top;
-  height: 800px;
-} */
-
-
 .principal > img{
   display: block;
   margin: auto;
