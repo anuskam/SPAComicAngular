@@ -6,7 +6,7 @@ import { ComicComponent } from './components/comic/comic.component';
 
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'comic/:id', component: ComicComponent },
   { path: 'comics', component: ComicsComponent },
   { path: '***', pathMatch: 'full', redirectTo: 'home' }
