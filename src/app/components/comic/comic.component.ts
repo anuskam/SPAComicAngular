@@ -11,7 +11,8 @@ import { Comic } from '../../servicios/comics.service';
 })
 export class ComicComponent implements OnInit {
 
-  comics:Comic[] = [];
+  //si me devuelve un solo comic [id] no puedo pasarle un array comics:Comic[] = [];
+  comics:Comic;
 
   constructor(
     private ruta:ActivatedRoute,

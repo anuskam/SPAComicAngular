@@ -103,15 +103,6 @@ export class ComicsService {
     }
   ];
 
-  //novelagrafica:any[] = [
-      //nombre: "Laura Dean me ha vuelto a dejar",
-      //descripcion: "Laura Dean es la chica más popular del instituto: es encantadora, divertida y realmente preciosa, pero tiene papeletas para ser la peor novia del mundo. [...]",
-      //¡Y si no que se lo digan a Freddy Riley! Su relación intermitente la está volviendo loca, y sus amigos son incapaces de comprender por qué siempre termina volviendo con ella.",
-      //img: "../assets/img/lauradean.jpg",
-      //autore: "Mariko Tamaki / Rosemary Valero-O'Connell",
-      //editorial: "Ediciones La Cúpula"
-
-  //];
 
   constructor() {
     console.log("Servicio listo");
