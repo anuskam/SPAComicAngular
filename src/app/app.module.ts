@@ -9,6 +9,9 @@ import { AppComponent } from './app.component';
 import { ComicsComponent } from './components/comics/comics.component';
 import { HomeComponent } from './components/home/home.component';
 import { ComicComponent } from './components/comic/comic.component';
+import { FantasiasComponent } from './components/fantasias/fantasias.component';
+import { FantasiaComponent } from './components/fantasia/fantasia.component';
+
 
 //pipe
 import { FilterPipe } from './filter.pipe';
@@ -23,6 +26,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     ComicComponent,
     FilterPipe,
+    FantasiasComponent,
+    FantasiaComponent,
   ],
   imports: [
     BrowserModule,

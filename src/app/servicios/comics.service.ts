@@ -91,19 +91,119 @@ export class ComicsService {
     }
   ];
 
+  fantasias:Fantasia[] = [
+    {
+      nombre: "Siega",
+      descripcion: "Antes, las personas morían por causas naturales. Existían asesinos invisibles llamados enfermedades, el envejecimiento era irreversible y se producían accidentes de los que no se podía regresar. Ahora, todo eso ha quedado atrás y sólo perdura una verdad muy simple: la gente tiene que morir. Y esa es la tarea de los segadores. Porque en un futuro donde la humanidad controla la muerte, ¿quién decide cuándo y cómo sembrarla? Citra y Rowan acaban de ser seleccionados como aprendices de segadores. ¿Su objetivo? Superar las pruebas de su mentor, sean las que sean. Aunque en el proceso renuncien a todo lo que les hace humanos.",
+      img: "../assets/img/siega.jpg",
+      autore: "Neal Shusterman",
+      editorial: "Nocturna Ediciones"
+    },
+    {
+      nombre: "Nimbo",
+      descripcion: "No ha pasado más que un año desde que los caminos de Citra y Rowan se separaron, pero en este tiempo los rumores sobre un justiciero que persigue a los segadores corruptos se han multiplicado. Por todo el continente se oyen susurros de que los culpables acaban siempre devorados por las llamas. La segadora Anastasia criba con compasión y desafía abiertamente las ideas del nuevo orden. No obstante, cuando su vida se ve amenazada y sus métodos se cuestionan, queda claro que no todos los miembros de la Guadaña desean el cambio y que la podredumbre crece hasta en los cimientos más sólidos. La muerte debe existir para que la vida tenga sentido. Pero ¿cuál es el precio que cada segador está dispuesto a pagar?",
+      img: "../assets/img/nimbo.jpg",
+      autore: "Neal Shusterman",
+      editorial: "Nocturna Ediciones"
+    },
+    {
+      nombre: "Trueno",
+      descripcion: "Todo cambió hace tres años: fue entonces cuando Anastasia y Lucifer desaparecieron; cuando el segador Goddard llegó al poder; cuando el Nimbo retiró la palabra a toda la humanidad, menos a Grayson Tolliver. En este impactante desenlace de El arco de la Guadaña, la trilogía que Neal Shusterman comenzó con Siega, se pondrán a prueba las lealtades y reaparecerán viejos amigos. Pero el rugir del trueno siempre es el preludio de la tormenta, y puede que el ruido del cambio ya haya empezado a resonar entre los portadores de la muerte.",
+      img: "../assets/img/trueno.jpg",
+      autore: "Neal Shusterman",
+      editorial: "Nocturna Ediciones"
+    },
+    {
+      nombre: "Luna 174",
+      descripcion: "Luna Hatton tiene veinte años y vive en un pueblo perdido en Australia.Aunque su vida parece idéntica a la de cualquier otra persona, posee un don que la persigue desde que era una niña: es capaz de ver el alma del resto de los seres humanos. La mayoría de los que le rodean son todos de color gris, en ese punto intermedio que separa lo malo de lo bueno, pero existe una chica, una chica con el alma blanca, a la que se siente atada y con la que acabará conociendo las estrellas que brillan sobre su tejado: Gaia Wheeler. Un día, Luna recibe una oferta de una empresa que parece conocer su secreto, a pesar de que ella nunca lo haya compartido. A simple vista, son solo unos locos dispuestos a pagarle dinero por algo que ella considera intuición desde hace años. Lo que no sabe todavía es la amenaza que se cierne sobre la Tierra y el significado del número ciento setenta y cuatro.",
+      img: "../assets/img/luna174.jpg",
+      autore: "Clara Duarte",
+      editorial: "La Galera"
+    },
+    {
+      nombre: "Sombra y hueso",
+      descripcion: "Alina Starkov no espera mucho de la vida. Se quedó huérfana después de la guerra y lo único que tiene en el mundo es a su amigo Mal. A raíz de un ataque que recibe Mal al entrar en La Sombra, una oscuridad antinatural repleta de monstruos que ha aislado el país, Alina revela un poder latente que ni ella misma sabía que tenía. Tras ese episodio, Alina es conducida a la fuerza hasta la corte real para ser entrenada como un miembro de los Grisha, un grupo de magos de élite comandado por un individuo misterioso que se hace llamar El Oscuro.",
+      img: "../assets/img/sombrayhueso.jpg",
+      autore: "Leigh Bardugo",
+      editorial: "Editorial Hidra"
+    },
+    {
+      nombre: "Asedio y tormenta",
+      descripcion: "Perseguida a través del Mar Auténtico, atormentada por las vidas con las que acabó en la Sombra, Alina trata de sobrevivir junto a Mal en una tierra extraña, a la vez que mantiene en secreto su identidad como Invocadora del Sol. Pero no podrá huir durante mucho tiempo ni de su pasado ni de su destino. El Oscuro ha emergido de la Sombra con un terrorífico poder nuevo, y con un peligroso plan que pondrá a prueba los mismísimos límites del mundo natural. Con la ayuda de un carismático corsario, Alina volverá al país que trató de abandonar, decidida a luchar contra las fuerzas que amenazan a Ravka. Pero a medida que su poder crece, Alina se pierde cada vez más en el juego de magia prohibida del Oscuro, y se aleja de Mal. Pronto tendrá que elegir entre su país, su poder y el amor que siempre pensó que la guiaría, o arriesgarse a perderlo todo en la tormenta que se avecina",
+      img: "../assets/img/asedioytormenta.jpg",
+      autore: "Leigh Bardugo",
+      editorial: "Editorial Hidra"
+    },
+    {
+      nombre: "Ruina y ascenso",
+      descripcion: "El Oscuro gobierna Ravka desde su trono de sombras. Ahora el destino de la nación está en manos de una Invocadora del Sol sin poderes, un rastreador caído en desgracia y los últimos vestigios de lo que alguna vez fue un gran ejército de magos. En las profundidades de una antigua red de túneles y cuevas, una debilitada Alina debe someterse a la dudosa protección del Apparat y de aquellos que la veneran como a una Santa. Pero tiene otros planes, como lanzarse a la caza del elusivo pájaro de fuego y comprobar si la supervivencia de cierto príncipe forajido es algo más que una esperanza. Alina deberá forjar nuevas alianzas y dejar de lado antiguas rivalidades para, junto con Mal, encontrar el último amplificador de Morozova. Pero tan pronto como empieza a desvelar los secretos del Oscuro, sale a la luz un pasado que alterará para siempre su visión del lazo que los une y el poder que ella detenta. El pájaro de fuego es lo único que se interpone entre Ravka y la destrucción, y Alina podría pagar un alto precio por conseguirlo: el mismísimo futuro por el que está luchando.",
+      img: "../assets/img/ruinayascenso.jpg",
+      autore: "Leigh Bardugo",
+      editorial: "Editorial Hidra"
+    },
+    {
+      nombre: "El priorato del naranjo",
+      descripcion: "La Casa de Berethnet ha gobernado Inys durante mil años. Aún sin casar, la reina Sabran IX debe concebir una hija para proteger a su reino de la destrucción. Pero los asesinos cada vez están más cerca. Ead Duryan es una intrusa en la corte. A pesar de que se ha posicionado como dama de compañía, es leal a una sociedad oculta de magos. Ead vigila a Sabran, protegiéndola en secreto con magia prohibida. Al otro lado del mar oscuro, Tane ha entrenado toda su vida para ser una jinete de dragón, pero se ve obligada a tomar una decisión que podría romper su vida en añicos. Mientras tanto, el Este y el Oeste siguen divididos. Cada región tiene una religión diferente basada en los sucesos acaecidos mucho tiempo atrás. Los que adoran a los dragones, los que los detestan y quienes adoran al Sin Nombre aparentemente nunca se pondrán de acuerdo. Y las fuerzas del caos se despiertan de su letargo y parecen estar a punto de llegar.",
+      img: "../assets/img/elprioratodelnaranjo.jpg",
+      autore: "Samantha Shannon",
+      editorial: "Roca Editorial"
+    },
+    {
+      nombre: "Cada seis meses",
+      descripcion: "Hana conoce a Ro. Ro conoce a Hana. Hana es esta chica medio coreana que reparte los pedidos del wok de sus padres, y Ro aparece de pronto. Ro es alta como Madrid y las farolas. La historia de Hana y Ro empieza así: una pelea. Un supermercado. La puerta rota de un baño sucio. Un piano electrónico y ocho plantas con nombre. Es cutre y torpe, como todo, pero es bonita. Es normal. Hana piensa, durante ese verano: «esto podría durar para siempre». Hana se duerme el 31 de agosto. Cuando despierta, Ro no está. Ro no existe. Nadie la recuerda, nadie parece haberla conocido. Todo lo que tiene que ver con ella ha desaparecido, y la única que la recuerda ahora es Hana.",
+      img: "../assets/img/cadaseismeses.jpg",
+      autore: "Clara Duarte",
+      editorial: "La Galera"
+    },
+    {
+      nombre: "La flor y la muerte",
+      descripcion: "Marte, 2628. Olympus es una gran corporación que se extiende por la galaxia y divide a la sociedad en trece Servicios basados en las funciones de los antiguos dioses olímpicos. Asha es una hades y lleva toda la vida rodeada de muerte. Ianthe es una deméter y lleva toda la vida enraizada en la soledad. Cuando ambas entran en la Akademeia, ya saben lo que les espera: tres años de internamiento y la Odisea, la prueba por grupos donde se elige a los mejores candidatos para liderar los Servicios. Pero la competición es dura y hay mucho en juego. El poder lo conseguirá quien esté dispuesto a todo por Olympus.",
+      img: "../assets/img/laflorylamuerte.jpg",
+      autore: "Iria G. Parente / Selene M. Pascual",
+      editorial: "Nocturna Ediciones"
+    },
+    {
+      nombre: "Una obsesión perversa",
+      descripcion: "Víctor y Eli eran dos estudiantes universitarios brillantes pero arrogantes que reconocían, el uno en el otro, la misma agudeza y la misma ambición. En el último año de su carrera, el interés compartido por la adrenalina, las experiencias cercanas a la muerte y los acontecimientos en apariencia sobrenaturales plantean una posibilidad intrigante: que, dadas ciertas condiciones, sería posible desarrollar habilidades extraordinarias. Pero cuando la tesis pasa de lo académico a lo experimental, las cosas salen horriblemente mal. Diez años más tarde, Víctor escapa de la cárcel, decidido a encontrar a su antiguo amigo (ahora enemigo), con la ayuda de una muchachita cuyo carácter reservado esconde una capacidad asombrosa. Mientras tanto, Eli se ha propuesto erradicar a todas las demás personas con superpoderes que pueda encontrar... salvo a su compañera, una mujer enigmática de voluntad inquebrantable. Ambos armados con inmenso poder, impulsados por el recuerdo de la traición y la pérdida, los archienemigos están decididos a vengarse... pero ¿quién quedará vivo al final?",
+      img: "../assets/img/obsesionperversa.jpg",
+      autore: "Victoria Schwab",
+      editorial: "Puck"
+    },
+    {
+      nombre: "Una venganza mortal",
+      descripcion: "Aliados. Enemigos. Villanos. Ellos son ExtraOrdinarios. Eli Ever y Victor Vale eran simples estudiantes de medicina cuando descubrieron que las experiencias cercanas a la muerte pueden, si se dan ciertas condiciones, manifestar capacidades extraordinarias. Fueron muy amigos, luego rivales y, por fin, enemigos. Estuvieron muertos, revivieron, y más tarde… Eli mató a Victor de una vez por todas. Al menos, eso creía. Pero Sydney Clarke no estuvo de acuerdo y usó su propio superpoder para inclinar la balanza. Ahora, un trío se esconde en las sombras, mientras otro aprovecha la vida después de la muerte para apoderarse de la ciudad de Merit. Si puede haber vida después de la muerte… ¿habrá calma después de la venganza, o prevalecerá el caos?",
+      img: "../assets/img/venganzamortal.jpg",
+      autore: "Victoria Schwab",
+      editorial: "Puck"
+    },
+
+
+  ];
+
 
   constructor() {
     console.log("Servicio listo");
   }
 
+  //Métodos par a los comics
   getComics():Comic[]{
     return this.comics;
   }
 
-
-  getComic( idx: string){
+  getComic( idx: string ){
     return this.comics[idx];
   }
+
+  //Métodos para los libros fantasía
+  getFantasias(): Fantasia[]{
+    return this.fantasias;
+  }
+
+  getFantasia( idx: string ){
+    return this.fantasias[idx];
+  }
+
+
 
 }
 
@@ -111,6 +211,14 @@ export class ComicsService {
 
 //Creo una interface para poder usar Arrays de Comics y no tipo Any
 export interface Comic{
+  nombre: string;
+  descripcion: string;
+  img: string;
+  autore: string;
+  editorial: string;
+}
+
+export interface Fantasia{
   nombre: string;
   descripcion: string;
   img: string;
