@@ -1,24 +1,28 @@
 <html>
   <body>
     <div class="container-fluid mb-4">
-      <div class="row d-flex align-items-stretch">
-        <div class="col mb-4" *ngFor="let item of comics, index as i">
-          <div class="card h-100 mt-4 ml-2 mr-2" style="width: 20rem;">
-            <div class="imagen">
-              <img [src]="item.img" class="card-img-top" alt="imagen">
-            </div>
+      <div class="content">
+        <div class="row d-flex align-items-stretch">
 
-            <div class="card-body">
-              <h5 class="card-title">{{item.nombre}}</h5>
-              <h6 class="card-subtitle mb-2 text-muted">{{item.autore}}</h6>
-              <p class="card-text">{{item.descripcion}}</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <div class="col mb-4" *ngFor="let item of comics, index as i">
+            <div class="card h-100 mt-4 ml-1 mr-1" style="width: 20rem;">
+              <div class="imagen">
+                <img [src]="item.img" class="card-img-top" alt="imagen">
+              </div>
 
-            </div>
-            <div class="card-footer">
-              <!-- Sirve para que nos lleve a cada comic en concreto y ver más información.  -->
-              <a [routerLink]="['/comic', i]" class="btn btn-block vermas">Ver más</a>
-              <!-- <small class="text-muted">{{comic.editorial}}</small> -->
+              <div class="card-body">
+                <h5 class="card-title">{{item.nombre}}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{item.autore}}</h6>
+                <!-- El slice sirve para mostrar o cortar tantas palabras como queramos. El primer valor indica el principio y el segundo valor indica hasta donde queremos llegar -->
+                <p class="card-text">{{item.descripcion | slice:0:0}}</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+              </div>
+              <div class="card-footer">
+                <!-- Sirve para que nos lleve a cada comic en concreto y ver más información.  -->
+                <a [routerLink]="['/comic', i]" class="btn btn-block vermas">Ver más</a>
+                <!-- <small class="text-muted">{{comic.editorial}}</small> -->
+              </div>
             </div>
           </div>
         </div>

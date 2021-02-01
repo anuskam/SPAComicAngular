@@ -1,14 +1,30 @@
 .imagen{
   display: flex;
-  align-items: center;
-  height: 455px;
+  align-items: top;
+  height: 420px;
 }
 
 .card-subtitle{
   font-style: italic;
 }
 
+.card{
+  border: 1px solid #2b2e4a;
+}
+
+.col{
+  flex-grow: 0;
+}
+
+.content{
+  margin-left: 35px;
+}
 
 .vermas{
-  background-color: #62C698;
+  background-color: #2b2e4a;
+  color: white;
+}
+
+body{
+  background-color: #FFEB3B;
 }

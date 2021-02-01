@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg">
   <div class="ml-2">
     <img src="../../assets/img/storytelling.png" width="25px">
   </div>
@@ -24,7 +24,7 @@
           Categorías
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Fantasía</a>
+          <a class="dropdown-item" href="/fantasia">Fantasía</a>
         </div>
       </li>
       <!-- <li class="nav-item">
@@ -34,7 +34,8 @@
     <form class="form-inline my-2 my-lg-0">
       <input name="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="searchText" autocomplete="off">
       <ul *ngIf= "searchText!='' && searchText !=null" class="resultado">
-        <li *ngFor="let comic of comics | filter: searchText">{{comic.nombre}}</li>
+        <li *ngFor="let item of comics | filter: searchText"><a [routerLink]="['/comic', comics.indexOf(item)]">{{item.nombre}}</a></li>
+        <!-- <a [routerLink]="['/comic', comics.indexOf(item)]"></a> -->
       </ul>
       <button class="btn search my-2 my-sm-0" type="submit">Buscar</button>
     </form>

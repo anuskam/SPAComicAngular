@@ -8,7 +8,6 @@ import { Comic } from './servicios/comics.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  //comic:Comic;
   comics: Comic[] = [];
   searchText: string;
   title: 'spa3';

@@ -1,4 +1,9 @@
 .card{
-  margin: auto;
-  margin-top: 1%;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.card-text{
+  text-align: justify;
 }
