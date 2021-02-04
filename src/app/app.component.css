@@ -2,6 +2,10 @@
   background-color: #2b2e4a;
 }
 
+.nabar{
+  position: fixed;
+}
+
 .navbar li{
   padding-left: 10px;
 }
@@ -41,6 +45,15 @@
   padding-bottom: 4px;
 }
 
-.resultado:hover{
+.resultado{
   background-color: #c13b54;
+}
+
+
+.resultado li a{
+  text-decoration: none;
+}
+
+.resultado li a:hover{
+  background-color: transparent;
 }

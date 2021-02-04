@@ -16,12 +16,10 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/comics">Cómics</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" routerLink="/novelas-graficas">Novela gráfica</a>
-      </li> -->
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Categorías
+          Libros
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" routerLink="/fantasias">Fantasía</a>
@@ -35,7 +33,7 @@
       <input name="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="searchText" autocomplete="off">
       <ul *ngIf= "searchText!='' && searchText !=null" class="resultado">
         <li *ngFor="let item of comics | filter: searchText"><a [routerLink]="['/comic', comics.indexOf(item)]">{{item.nombre}}</a></li>
-        <!-- <a [routerLink]="['/comic', comics.indexOf(item)]"></a> -->
+        <li *ngFor="let item of fantasias | filter: searchText"><a [routerLink]="['/fantasia', fantasias.indexOf(item)]">{{item.nombre}}</a></li>
       </ul>
       <button class="btn search my-2 my-sm-0" type="submit">Buscar</button>
     </form>
